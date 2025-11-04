@@ -1,0 +1,72 @@
+1. VARIABLES ===========================================================
+
+Declare three different variables (one for each type: string, number, and boolean) and assign values to them.
+Then, display the type of each variable in the console.
+
+Create two variables, one containing your first name and another containing your last name.
+Then, combine them into a third variable using the + operator and into a fourth variable using template strings.
+Finally, print the results in the console.
+
+Declare two variables, one containing a number and the other a string.
+Then, combine them into a third variable using template strings to form a sentence and display the result in the console.
+
+Create a variable initialized with a value of any type, then reassign a new value to that variable.
+Print both values in the console after assigning them.
+
+Declare a variable using var outside a code block (for example, if) and another inside that block.
+Try accessing those variables inside and outside the block using console.log and analyze the results.
+Repeat the same process using let and compare with the previous results.
+
+Declare a boolean variable that indicates whether it's raining and use it in a conditional structure (if) to display a message 
+saying whether you need to take an umbrella or not, depending on the value of the variable.
+
+2. DATA TYPES ===========================================================
+
+Create a variable containing a sentence. Then, display in the console the length of the sentence and the same sentence in uppercase letters.
+
+Declare two variables, one initialized with null and another with no assignment (resulting in undefined). Display the values in the console.
+
+Create 3 variables of different types, use template strings to combine the different data types (number, string, boolean) into a 
+single string, and display the result in the console.
+
+Create a numeric variable and a string. Convert the numeric variable to a string and the string to a number. Display the resulting data 
+types in the console.
+
+Create a variable with a string and use string manipulation methods such as toUpperCase, toLowerCase, slice, or others to modify the
+original string. Display the final results in the console.
+
+3. OPERATORS ===========================================================
+
+Create variables that store the value of the balance, deposit, and withdrawal of a bank account,
+then perform addition and subtraction operations between them using a variable called operation,
+considering the function of each variable created. Display the final results in the console.
+
+Create a numeric variable with a value. Use a ternary operator to check whether this value is even or odd.
+Display the result in the console.
+
+Consider a situation where you are checking if a user is logged in and has admin permission to access a specific feature.
+Use boolean variables to simulate these conditions and use the AND operator to verify if both are true.
+
+Declare two boolean variables and use the OR operator to check if at least one of them is true. Display the result in the console.
+
+Imagine a system that determines whether a user is old enough to buy a ticket for a show. Declare two variables that determine
+the minimum age required and the user’s age, and use conditional structures (if, else) to determine if the user can make the purchase.
+
+4. FUNCTIONS ===========================================================
+
+Create a function that receives a person's name as an argument and returns a personalized greeting.
+Then, call the function and display the greeting in the console.
+
+Create a function that receives a person's age and returns whether they are an adult (age >= 18).
+Print the result in the console.
+
+Create a function that receives a string and checks whether it is a palindrome (a word that reads the same backward and forward)
+using the string reverse() method. Return true if it is a palindrome and false otherwise.
+Print the result in the console.
+
+Create a function that receives three numbers as parameters and determines which one is the largest.
+Use conditional structures (if, else) to compare the values and determine the largest.
+Print the largest value in the console.
+
+Create an arrow function called calculaPotencia that receives two parameters: the base and the exponent.
+The function should calculate the base raised to the exponent and return the result.
