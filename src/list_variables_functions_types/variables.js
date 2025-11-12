@@ -2,6 +2,7 @@
 1. Declare three different variables (one for each type: string, number, and boolean) and assign values to them.
 Then, display the type of each variable in the console.
 */
+console.log(' --- Question 1 ---');
 
 let string_var = 'String';
 let number_var = 15;
@@ -20,6 +21,7 @@ console.log(typeof bool_var);
 Then, combine them into a third variable using the + operator and into a fourth variable using template strings.
 Finally, print the results in the console.
 */
+console.log('\n --- Question 2 ---');
 
 let first_name = 'Chandler';
 let last_name = 'Nascimento';
@@ -34,6 +36,7 @@ console.log(option2);
 3. Declare two variables, one containing a number and the other a string.
 Then, combine them into a third variable using template strings to form a sentence and display the result in the console.
 */
+console.log('\n --- Question 3 ---');
 
 let user = 'Mike';
 let age = 20;
@@ -47,13 +50,41 @@ console.log(phrase_to_print);
 Print both values in the console after assigning them.
 */
 
+console.log('\n --- Question 4 ---');
+let variable = 'String';
+console.log(variable);
+
+variable = 2;
+console.log(variable);
+
 /*
 5. Declare a variable using var outside a code block (for example, if) and another inside that block.
 Try accessing those variables inside and outside the block using console.log and analyze the results.
 Repeat the same process using let and compare with the previous results.
 */
+console.log('\n --- Question 5 ---');
+
+let test = 25;
+
+if(true){
+    const test2 = 30;
+    console.log(test);
+    console.log(test2);
+}
+
+console.log(test);
+// console.log(test2);  it's not achieved outside of the if/else block, because it was declared inside the if/else block
 
 /*
 6. Declare a boolean variable that indicates whether it's raining and use it in a conditional structure (if) to display a message 
 saying whether you need to take an umbrella or not, depending on the value of the variable.
 */
+console.log('\n --- Question 6 ---');
+
+let isRaining = false;
+
+if(isRaining){
+    console.log("You should take an umbrella today.");
+}else{
+    console.log("You don't need to take an umbrella today.")
+}
